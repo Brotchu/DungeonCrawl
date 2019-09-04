@@ -1,0 +1,9 @@
+{application,dungeon,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"dungeon"},
+              {modules,['Elixir.Dungeon','Elixir.DungeonCrawl.CLI.Main',
+                        'Elixir.DungeonCrawl.Character',
+                        'Elixir.DungeonCrawl.Heroes',
+                        'Elixir.Mix.Tasks.Start']},
+              {registered,[]},
+              {vsn,"0.1.0"}]}.
